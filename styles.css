@@ -3,13 +3,6 @@
   src: url("Nunito-VariableFont_wght.ttf") format("truetype");
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-align: center;
-}
-
 body {
   font-family: Nunito;
   background-color: #f4f4f4;
@@ -20,11 +13,28 @@ body {
   margin: 0px;
 }
 
-.container {
+.left_side {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  background-color: #ffffff;
+  height: 100%;
   background: white;
   padding: 23px;
   border-radius: 17px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.right_side {
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-color: #f1f1f1;
+  background: white;
+  padding: 23px;
+  border-radius: 17px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 h1 {
